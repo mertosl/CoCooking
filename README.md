@@ -20,4 +20,4 @@ Une plateforme où l'utilisateur peut :
 
 Un business model basé sur celui de Blablacar mais autour d'un repas. Tous les participants se retrouvent autour d'une table chez l'hôte ayant créé le repas.
 
-Avec l'accord de mon groupe d'étudiants d'Epitech, puisque nous ne comptons pas lancer ce projet, vous trouverez les sources de l'application Android pour laquelle j'étais en charge de développement.
+Avec l'accord de mon groupe d'étudiants d'Epitech, puisque nous ne comptons pas lancer ce projet, vous trouverez les sources de l'application Android pour laquelle j'étais en charge de développement. Ces sources représentent le rendu final présenté lors de la soutenance du projet ne seront pour le moment pas mis à jour.
