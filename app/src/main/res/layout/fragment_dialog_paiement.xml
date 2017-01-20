@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/container_cagnotte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/textView_cagnotte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir payer via la Cagnotte ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"/>
+        <LinearLayout
+            android:layout_below="@id/textView_cagnotte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <Button
+                android:id="@+id/btn_non_cagnotte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="NON"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge"/>
+            <Button
+                android:id="@+id/btn_oui_cagnotte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:text="OUI"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/container_paymill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/textView_paymill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir payer par Carte Bancaire ? ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"/>
+        <LinearLayout
+            android:layout_below="@id/textView_paymill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <Button
+                android:id="@+id/btn_non_paymill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="NON"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge"/>
+            <Button
+                android:id="@+id/btn_oui_paymill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:text="OUI"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/container_paiement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:text="Payement par Carte Bancaire"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_paymill" />
+
+        <Button
+            android:text="Payement par Cagnotte"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_paymill"
+            android:layout_alignLeft="@+id/btn_paymill"
+            android:layout_alignRight="@+id/btn_paymill"
+            android:layout_centerInParent="true"
+            android:id="@+id/btn_cagnotte" />
+    </RelativeLayout>
+</RelativeLayout>

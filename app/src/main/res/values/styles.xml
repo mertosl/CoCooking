@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat">
+        <item name="android:textColorHint">@color/colorBleuMarine</item>
+        <item name="android:textColor">@color/colorRouge</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorRouge</item>
+        <item name="colorControlActivated">@color/colorRouge</item>
+    </style>
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Orange">#FFEF5322</color>
+    <color name="Brown">#891C1C</color>
+    <color name="Grey">#999999</color>
+    <color name="LightOrange">#FA9678</color>
+    <color name="MedianOrange">#F37956</color>
+    <color name="DarkOrange">#B4320F</color>
+    <color name="pressed">#CC891C1C</color>
+</resources>

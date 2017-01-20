@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/container_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/textView_admit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir accepter la demande ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"/>
+        <TextView
+            android:id="@+id/textView_decline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir rejeter la demande ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/textView_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir annuler votre participation ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/textView_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Êtes-vous sûr(e) de vouloir confirmer votre participation ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanche"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_non"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="NON"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge"/>
+            <Button
+                android:id="@+id/btn_oui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:text="OUI"
+                android:textColor="@color/colorBlanche"
+                android:textStyle="bold"
+                android:background="@color/colorRouge" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/container_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:text="Accepter la demande"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admit" />
+        <Button
+            android:text="Rejeter la demande"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_admit"
+            android:layout_alignLeft="@+id/btn_admit"
+            android:layout_alignRight="@+id/btn_admit"
+            android:layout_centerInParent="true"
+            android:id="@+id/btn_decline" />
+        <Button
+            android:text="Annuler votre demande"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel"
+            android:visibility="gone"/>
+        <Button
+            android:text="Confirmer votre demande"
+            android:textColor="@color/colorBlanche"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_cancel"
+            android:layout_alignLeft="@+id/btn_cancel"
+            android:layout_alignRight="@+id/btn_cancel"
+            android:layout_centerInParent="true"
+            android:id="@+id/btn_confirm"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

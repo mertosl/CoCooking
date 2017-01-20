@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanche">
+    <VideoView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoView"
+        android:onClick="onClickVideo"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/container_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_cocooking"
+            android:contentDescription="CoCooking" />
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CoCooking"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRouge"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Adresse mail"
+                android:textColor="@color/colorBleuMarine"
+                android:maxLines="1"
+                android:scrollbars="vertical" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Mot de passe"
+                android:textColor="@color/colorBleuMarine"
+                android:maxLines="1"
+                android:scrollbars="vertical" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Connexion"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanche"
+            android:background="@color/colorRouge"/>
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pas de compte? Inscrivez-vous"
+            android:textColor="#0000FF"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:clickable="true"/>
+    </LinearLayout>
+</RelativeLayout>

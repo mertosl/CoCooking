@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlanche">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlanche"
+            android:textSize="12sp"
+            android:text="Liste de vos repas créés en cours"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"/>
+        <TextView
+            android:id="@+id/mesrepas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Vous n'avez pas de repas créés en cours."
+            android:textColor="@color/colorBleuMarine"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:isScrollContainer="true"
+            android:visibility="gone">
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlanche">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlanche"
+            android:textSize="12sp"
+            android:text="Historique de vos repas créés"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"/>
+        <TextView
+            android:id="@+id/historique"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Vous n'avez pas d'historique de vos repas créés."
+            android:textColor="@color/colorBleuMarine"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/listview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:isScrollContainer="true"
+            android:visibility="gone">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

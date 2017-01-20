@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlanche">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlanche"
+            android:textSize="12sp"
+            android:text="Gérez vos réservations aux repas extérieurs en cours"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"/>
+        <TextView
+            android:id="@+id/participations"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Vous n'avez pas fait de demandes de participations."
+            android:textColor="@color/colorBleuMarine"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:isScrollContainer="true"
+            android:background="@drawable/border"
+            android:visibility="gone">
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlanche">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlanche"
+            android:textSize="12sp"
+            android:text="Gérez les participants à vos repas en cours"
+            android:textStyle="bold"
+            android:background="@color/colorRouge"/>
+        <TextView
+            android:id="@+id/participants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Vous n'avez pas de participants en attente."
+            android:textColor="@color/colorBleuMarine"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/listview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:isScrollContainer="true"
+            android:background="@drawable/border"
+            android:visibility="gone">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

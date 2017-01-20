@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBlanche">
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Trouver votre repas!"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="@color/colorRouge" />
+    <TextView
+        android:id="@+id/slogan_lieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Où ?"
+        android:textSize="15sp"
+        android:textColor="@color/colorRouge"
+        android:textStyle="bold|italic"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:gravity="center"
+        android:hint="ex: Paris, 12ème"
+        android:maxLines="2"
+        android:textSize="15sp"
+        android:textColor="@color/colorBleuMarine"
+        android:inputType="textPostalAddress">
+        <requestFocus/>
+    </AutoCompleteTextView>
+    <TextView
+        android:id="@+id/slogan_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Quand ?"
+        android:textColor="@color/colorRouge"
+        android:textStyle="bold|italic"/>
+    <AutoCompleteTextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ex: dd/mm/yyyy"
+        android:textSize="15sp"
+        android:textColor="@color/colorBleuMarine"
+        android:maxLines="1"
+        android:inputType="date">
+        <requestFocus/>
+    </AutoCompleteTextView>
+    <TextView
+        android:id="@+id/slogan_mot_cle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Mots clés ?"
+        android:textColor="@color/colorRouge"
+        android:textStyle="bold|italic"/>
+    <AutoCompleteTextView
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ex: légumes, pates, etc..."
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:textColor="@color/colorBleuMarine"
+        android:inputType="text">
+        <requestFocus/>
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Rechercher"
+        android:textColor="@color/colorBlanche"
+        android:textStyle="bold"
+        android:background="@color/colorRouge"/>
+</LinearLayout>

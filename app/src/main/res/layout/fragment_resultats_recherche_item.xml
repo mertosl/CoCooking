@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorBlanche"
+    android:padding="5dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/photo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/picto_cocooker"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorOrange"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/photo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:text="Nom du repas"
+        android:textStyle="bold"
+        android:textColor="@color/colorBleuMarine"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F0F0"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/info"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/container"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00/00/0000 00:00:00"
+                android:textStyle="italic"
+                android:textColor="@color/colorBleuMarine"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/places"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 places de libre"
+                android:textStyle="italic"
+                android:textColor="@color/colorBleuMarine"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00€"
+                android:textStyle="bold"
+                android:textColor="@color/colorOrange"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="Cliquez sur ce repas pour afficher les détails"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorBleuMarine"
+        android:layout_below="@+id/container"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="array_places">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="array_sexe">
+        <item>Non précisé</item>
+        <item>Femme</item>
+        <item>Homme</item>
+    </string-array>
+    <string name="recherche">recherche</string>
+    <string name="tv_recherche">Recherche</string>
+    <string name="profile">profile</string>
+    <string name="tv_profile">Profile</string>
+    <string name="repas">repas</string>
+    <string name="tv_repas">Repas</string>
+    <string name="messagerie">messagerie</string>
+    <string name="tv_messagerie">Messagerie</string>
+    <string name="cocooking">CoCooking</string>
+
+    <string name="app_name">Location API</string>
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="image">image</string>
+</resources>

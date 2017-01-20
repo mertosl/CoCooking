@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Titre du repas"
+        android:textColor="@color/colorBleuMarine"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="Description du repas"
+        android:textColor="@color/colorBleuMarine"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:text="00/00/0000 00:00:00"
+        android:textColor="@color/colorBleuMarine"
+        android:textStyle="italic"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:gravity="center"
+        android:text="0.00 €"
+        android:textColor="@color/colorRouge"
+        android:textSize="14sp"/>
+</RelativeLayout>

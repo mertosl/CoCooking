@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.8.0_4a844f7b94fdc31a2e4b372aba5a1daa13c8c129.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.8.0_7a16e998540a6027e9646d7e98b4180ccb488f64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.0.0\d74fd3315b4575c1cda5e5712d061a7fcdc7d423\logging-interceptor-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d74fd3315b4575c1cda5e5712d061a7fcdc7d423">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.0.0_42fbdb774af74fc089aec7d393addd6fe7dc74cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_0b890122becc90b33ae0dd868f91da42346aa0ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_59e5bb5322d972295c3fa13613d327630adc247b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_f8e515ad6019b6aaddab2709fc300cb9eb1e8e29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.8.0_908ecf8972763460ff81abc0649e072d2c2ee2bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.astuetz-pagerslidingtabstrip-1.0.1_9c60193966d73636c2690d3c51835b32330b57d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\me.relex\circleindicator\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\me.relex-circleindicator-1.2.2_30dd453056da28a40f31aa6706810f4f25095e94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_b5237c9b3a8dfe70c9176018590b9c7542f59ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.8.0_c939e4ed64279f5db600bcee140938290a3e3315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.8.0_0f0ec8d6a5047f1303af726ca5ff8cf065daa48b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_425b13045e4d58446eccb23fe984fff4e623b194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.8.0_5c842ca08b1d233dee91a7957368023682821513.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\okio-1.6.0_54581f86e72de4918de63c1e69225b8fff6d4436.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.8.0_7f706dffef1ebf4262a34af9b863d0c9f2d68fd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_20b2dcd847f44830af76b58dfb5a34da772fb4b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.stripe\stripe-android\2.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fd2d3bfea24a25023d1e3b04fb3218120cc067f4">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.stripe-stripe-android-2.0.2_9ca85017831e72a7588117136b6e0ba00f21e29b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_747541f771c7565c204380b2ba4d7afe005372b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_41785a055d098d730cd2f82c32025ee1bcbd6875.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.8.0_06f0fdf4ec11479bf85455fcee19d8958dd8ce2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.8.0_4c26e32911ca7bdd024aca1e5edd74719efb71a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_4ec470186ec1fb57a7bd6539e62bd508e41d136a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\org.lucasr.twowayview\twowayview\0.1.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a2a997b75e4c94dac7051557be6b95a06566291">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\org.lucasr.twowayview-twowayview-0.1.4_73003b4fd7a9e84fd07bdb42fab58ec976ea984c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.8.0_562ffde3051a130007d4c858f2599d1f3f4eadbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.0\10924c16dba25791695468206d4bd9428d7fe8ae\okhttp-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="10924c16dba25791695468206d4bd9428d7fe8ae">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\okhttp-3.0.0_79a9b6675a630c22e2918e91308b6fbdcc38dbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\libs\android-sdk-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="28ef547bfdbe457af79c58e31757939217b7393d">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\android-sdk-1.2.0_f40bed04ac4a01e18ec3ff2cda8c74a75540f98a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.8.0_c591e8730143341e6af20097af025716b8921776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_810ab14ea0bb1f7cf942ec2bfe96795bb9867e29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_f7474fc8ad9a78a0238ce6aefa0c20a92937e88d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.8.0_f2f66dee048d3ee4575fbd52f983517cf68ea124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_622b9afd906080783ffc92cfdfd5c951e8be2c25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\loick_000\AndroidStudioProjects\CoCookingFinalDesign\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_f7cbf4bc80fce3d67ea4b9c4d54e15b43411f952.jar" />
+    </item>
+
+</items>
