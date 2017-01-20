@@ -6,6 +6,7 @@ Dans le cadre de l'Epitech Innovating Project, mon groupe et moi avons décidé 
 - IOS
 - Android
 - Windows Phone
+
 Une plateforme où l'utilisateur peut :
 - S'incrire / se connecter
 - Gérer son profil
